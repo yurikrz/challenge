@@ -40,7 +40,9 @@ body{
     font-size: 1.3rem;
     font-weight: var(--font-md);
     background-color: var(--light-grayish-blue);
-     
+    display: grid;
+    place-content: center; 
+    min-width: 100vh;
 }
 
 .app-web{
@@ -63,6 +65,8 @@ body{
     align-items: center;
     gap: 1.5rem;
 }
+
+
 
 .imagen{
     border-radius: 50%;
@@ -197,3 +201,5 @@ body{
     }
    
 }
+
+
