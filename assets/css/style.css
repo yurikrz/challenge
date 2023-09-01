@@ -22,7 +22,8 @@
 html {
     box-sizing: border-box;
     font-family: var(--font-body);
-    
+    height: 100%;
+    min-height: 100vh;
 }
 
 *, *::before, *::after{
@@ -40,10 +41,15 @@ body{
     font-size: 1.3rem;
     font-weight: var(--font-md);
     background-color: var(--light-grayish-blue);
+    /*width: 100vh;*/
+    
+    height: 100%;
+    min-height: 100vh;
     display: grid;
-    place-content: center; 
-    min-width: 100vh;
+    justify-content: center;
+    /*align-content: center;*/
 }
+
 
 .app-web{
     padding: 4rem 1.5rem;
@@ -51,8 +57,8 @@ body{
     margin-right: auto;
     display: grid;
     gap: 20px;
-    justify-content: center;
-    align-content: center;
+    /*justify-content: center;
+    align-content: flex-start;*/
 }
 
 .testimonial{
@@ -201,5 +207,4 @@ body{
     }
    
 }
-
 
