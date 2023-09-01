@@ -46,8 +46,8 @@ body{
     min-height: 100vh;
     display: grid;
     justify-content: center;
-    /*align-content: center;*/
-    border: 2px solid red;
+    /*align-content: center;
+    border: 2px solid red;*/
 }
 
 
@@ -58,8 +58,8 @@ body{
     display: grid;
     gap: 20px;
     /*justify-content: center;
-    align-content: flex-start;*/
-    border: 2px solid red;
+    align-content: flex-start;
+    border: 2px solid red;*/
 }
 
 .testimonial{
