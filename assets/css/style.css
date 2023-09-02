@@ -164,7 +164,7 @@ body{
 @media(min-width: 1200px){
     .app-web{
         width: 1140px;
-        max-height: 800px;
+        /*max-height: 840px;*/
     }
 
    body{
